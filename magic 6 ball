@@ -1,1 +1,19 @@
+import random
 
+question = input("Ask the magic 6 ball a question: ")
+random_number = random.randint(1, 6)
+if random_number == 1:
+  print("" + "It is certain, my pal")
+elif random_number == 2:
+  print( "Outlook good, my friend")
+elif random_number == 3:
+  print("You may rely on it, homie")
+elif random_number == 4:
+  print("Ask again later, my dude")
+elif random_number == 5:
+  print("Concentrate and ask again, my guy")
+elif random_number == 6:
+  print("Reply hazy, try again tomorrow")
+else: print("error, bozo")
+
+print("Magic 6 Ball: + answer")
